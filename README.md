@@ -1,2 +1,2 @@
 # Kokua-Admin
-Proyecto final ingeniería en software. Backend del equipo de administración
+Proyecto final ingeniería en software del equipo de administración
