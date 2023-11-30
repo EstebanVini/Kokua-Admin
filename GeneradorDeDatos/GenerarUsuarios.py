@@ -414,7 +414,7 @@ def LLenarColumnaIDPAcientePolizas():
 
 
     for paciente in pacientes:
-        cursor.execute("UPDATE Polizas SET IDPaciente = %s WHERE IDPoliza = %s", (paciente[0], poliza[0]))
+        cursor.execute("UPDATE Polizas SET IDPaciente = %s WHERE IDPoliza = %s", (paciente[0]))
     cursor.close()
 
     print(f'Se han insertado 200 registros en la tabla Usuarios.')
